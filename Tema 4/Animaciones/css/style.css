@@ -28,3 +28,24 @@
   -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
   animation: myfirst 5s linear 2s infinite alternate;
 }
+
+#i3 {
+ #animation-rotate {
+animation: rotate 3s infinite;
+animation-name: rotate;
+animation-duration: 3s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+animation-fill-mode: none;
+animation-play-state: running;
+}
+@keyframes rotate {
+0%, 100% {
+transform: rotate(10deg);
+}
+50% {
+transform: rotate(-10deg);
+} 
+}
