@@ -30,6 +30,8 @@
 }
 
 #i3 {
+width: 200px;
+height: 200px;
 animation: rotate 3s infinite;
 animation-name: rotate;
 animation-duration: 3s;
