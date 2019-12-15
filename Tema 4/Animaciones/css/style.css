@@ -30,7 +30,6 @@
 }
 
 #i3 {
- #animation-rotate {
 animation: rotate 3s infinite;
 animation-name: rotate;
 animation-duration: 3s;
